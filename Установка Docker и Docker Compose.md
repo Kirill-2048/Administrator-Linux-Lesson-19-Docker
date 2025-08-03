@@ -27,6 +27,19 @@ Docker установлен и работает.
 
 ## Установка Docker Compose
 
+mkdir -p ~/.docker/cli-plugins/
+
+curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+
+chmod +x ~/.docker/cli-plugins/docker-compose
+
+Проверка установки:
+
+docker compose version
+
+Docker Compose version v2.39.1
+
+Docker Compose установлен успешно.
 
 
    
