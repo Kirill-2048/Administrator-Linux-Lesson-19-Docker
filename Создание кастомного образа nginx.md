@@ -2,7 +2,6 @@
 
 Создание кастомной страницы HTML
 
-
 <!DOCTYPE html>
 
 <html lang="en">
