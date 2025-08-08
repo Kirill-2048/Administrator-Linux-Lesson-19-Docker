@@ -83,3 +83,10 @@ docker images
     hello-world   latest    74cc54e27dc4   6 months ago         10.1kB
 
     (образ собрался)
+
+### Запуск контейнера на порту 8080
+
+docker run -d -p 8080:80 --name my-nginx-container my-nginx
+
+docker ps
+
