@@ -90,3 +90,5 @@ docker run -d -p 8080:80 --name my-nginx-container my-nginx
 
 docker ps
 
+STAUS Up About a minute (контейнер запустился).
+
