@@ -48,7 +48,7 @@
 
     </html>
 
-## Создание Docker-файла для сборки образа
+### Создание Docker-файла для сборки образа
 
 #Берём официальный образ Nginx на Alpine
 
@@ -70,7 +70,7 @@ EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 
-## Сборка Docker-образа
+### Сборка Docker-образа
 
 docker build -t my-nginx .
 
