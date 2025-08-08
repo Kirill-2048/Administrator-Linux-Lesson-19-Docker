@@ -48,3 +48,19 @@
 
     </html>
 
+Создание Docker-файла для сборки образа
+
+#Берём официальный образ Nginx на Alpine (лёгкий)
+FROM nginx:alpine
+
+#Удаляем стандартную страницу Nginx
+RUN rm -rf /usr/share/nginx/html/*
+
+#Копируем нашу страницу в контейнер
+COPY index.html /usr/share/nginx/html/
+
+#Открываем порт 80 (Nginx по умолчанию слушает его)
+EXPOSE 80
+
+#Запускаем Nginx в foreground-режиме (чтобы контейнер не завершался)
+CMD ["nginx", "-g", "daemon off;"]
