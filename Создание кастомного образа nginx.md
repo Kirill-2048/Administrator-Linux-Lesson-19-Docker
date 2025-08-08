@@ -121,3 +121,5 @@ curl http://localhost:8080
     </html>
 
 Кастомная страница выводится.
+
+![Nginx](https://github.com/user-attachments/assets/24ee05a7-46d4-40a6-8ca2-d56739515843)
