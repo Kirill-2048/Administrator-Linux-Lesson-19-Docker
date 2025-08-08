@@ -2,11 +2,11 @@
 
 Создание кастомной страницы HTML
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
-<html lang="en">
+    <html lang="en">
     
-<head>
+    <head>
     
     <meta charset="UTF-8">
     
