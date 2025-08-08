@@ -1,6 +1,6 @@
 ## Создание кастомного образа Nginx
 
-Создание кастомной страницы HTML
+### Создание кастомной страницы HTML
 
     <!DOCTYPE html>
 
@@ -48,9 +48,9 @@
 
     </html>
 
-Создание Docker-файла для сборки образа
+## Создание Docker-файла для сборки образа
 
-#Берём официальный образ Nginx на Alpine (лёгкий)
+#Берём официальный образ Nginx на Alpine
 
 FROM nginx:alpine
 
@@ -69,3 +69,8 @@ EXPOSE 80
 #Запускаем Nginx в foreground-режиме 
 
 CMD ["nginx", "-g", "daemon off;"]
+
+## Сборка Docker-образа
+
+docker build -t my-nginx .
+
