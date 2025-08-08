@@ -36,15 +36,15 @@
         
     </style>
     
-</head>
+    </head>
 
-<body>
+    <body>
     
     <h1>Привет, это мой кастомный Nginx!</h1>
     
     <p>Страница загружена из Docker-контейнера на Alpine Linux.</p>
     
-</body>
+    </body>
 
-</html>
+    </html>
 
