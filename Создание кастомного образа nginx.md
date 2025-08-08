@@ -76,10 +76,10 @@ docker build -t my-nginx .
 
 docker images
 
-REPOSITORY    TAG       IMAGE ID       CREATED              SIZE
+    REPOSITORY    TAG       IMAGE ID       CREATED              SIZE
 
-my-nginx      latest    fc92f09844c0   About a minute ago   52.5MB
+    my-nginx      latest    fc92f09844c0   About a minute ago   52.5MB
 
-hello-world   latest    74cc54e27dc4   6 months ago         10.1kB
+    hello-world   latest    74cc54e27dc4   6 months ago         10.1kB
 
-(образ собрался)
+    (образ собрался)
